@@ -74,7 +74,7 @@ public class PetStoreController {
 		customers.put(customerID, new Customer(customerID, name, phoneNum));
 	}
 	
-	public List<Customer> getAllCutomers() 
+	public List<Customer> getAllCustomers() 
 	{
 		return new ArrayList<>(customers.values());
 	}
